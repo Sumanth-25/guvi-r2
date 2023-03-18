@@ -1,0 +1,4 @@
+create schema user_details;
+use user_details;
+create table login(id int(99),username varchar(50),email_id varchar(50),pass varchar(50));
+alter table login modify id int auto_increment;
